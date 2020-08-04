@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://us.123rf.com/450wm/1stchoice/1stchoice1503/1stchoice150300029/38379143-blue-water-background-with-gradient-to-white.jpg?ver=6');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+h1, h4 {
+    text-align: center;
+    font-family: 'Lemonada';
+    color: forestgreen;
+    margin: 30px 0 50px;
+}
+
+.display-4 {
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 2.5s 1;
+}
+
+.lead {
+    text-align: center;
+    color: sienna;
+}
+
+@keyframes text {
+    0%{
+      color: black;
+      margin-bottom: -40px;
+    }
+    30%{
+      letter-spacing: 25px;
+      margin-bottom: -40px;
+    }
+    85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+}
+
+.Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width:300px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+    filter: grayscale(50%);
+    transition: 1s;
+}
+img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
