@@ -14,10 +14,10 @@ h1, h4 {
 
 .display-4 {
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     margin-bottom: 20px;
     position: relative;
-    animation: text 2.5s 1;
+    animation: text 2s 1;
 }
 
 .lead {
